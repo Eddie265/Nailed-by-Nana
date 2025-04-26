@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="viewport" content="with=device-width, intitial-scale=1.0">
+        <title>Nailed by Nana</title>
+        <link rel="stylesheet" href="styles.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.6.0/css/fontawesome.min.css">
+
+    </head>
+    <body>
+        <section class="sub-header">
+            <nav>
+                <a href="index.html"><img src="images/Nana Top.png"></a>
+                <div class="nav-links" id="navLinks">
+                 <i class="fa fa-times" onclick="hideMenu()"></i>
+                    <ul>
+                        <li><a href="index.html">HOME</a></li>
+                        <li><a href="about.html">ABOUT</a></li>
+                        <li><a href="services.html">SERVICES</a></li>
+                        <li><a href="blog.html">BLOG</a></li>
+                        <li><a href="contact.html">CONTACT</a></li>
+                    </ul>
+                </div>
+                <i class="fa fa-bars" onclick="showMenu()"></i>
+
+            </nav>
+            <h1>About Us</h1>
+        </section>
+        <!-- About Us content -->
+         <section class="about-us">
+            <div class="row">
+                <div class="about-col">
+                    <h1>We are Malawi's leading Nail tech brand</h1>
+                    <p>Come visit us and experience a high quality and affordable nail tech session,book an appointment now and tell a friend to book an appointment and we promise you we will deliver what you are looking for without doubt</p>
+                    <a href="" class="hero-btn red-btn">EXPLORE NOW</a>
+                </div>
+                <div class="about-col">
+                    <img src="images/Space1.jpg" alt="">
+                </div>
+            </div>
+         </section>
+         
+        <!-- Footer -->
+           <section class="footer">
+            <h4>About Us</h4>
+            <p>Our work speaks for itself<br>we value customer satisfaction and we aim at giving you the best out of our capabilities.We have been been in the nail tech business for a couple of years now</p>
+            <div class="icons">
+                <i class="fa fa-facebook"></i>
+                <i class="fa fa-twitter"></i>
+                <i class="fa fa-instagram"></i>
+                <i class="fa fa-linkedin"></i>
+            </div>
+           </section>
+
+        <!-- JavaScript for Toggle Menu -->
+        <script>
+            var navLinks = document.getElementById("navLinks")
+            function showMenu(){
+                navLinks.style.right="0";
+            }
+            function hideMenu(){
+                navLinks.style.right="-200px"
+            }
+        </script>
+    </body>
+</html>

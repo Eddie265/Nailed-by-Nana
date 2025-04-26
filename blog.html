@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="viewport" content="with=device-width, intitial-scale=1.0">
+        <title>Nailed by Nana</title>
+        <link rel="stylesheet" href="styles.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.6.0/css/fontawesome.min.css">
+
+    </head>
+    <body>
+        <section class="sub-header">
+            <nav>
+                <a href="index.html"><img src="images/Nana Top.png"></a>
+                <div class="nav-links" id="navLinks">
+                 <i class="fa fa-times" onclick="hideMenu()"></i>
+                    <ul>
+                        <li><a href="index.html">HOME</a></li>
+                        <li><a href="about.html">ABOUT</a></li>
+                        <li><a href="services.html">SERVICES</a></li>
+                        <li><a href="blog.html">BLOG</a></li>
+                        <li><a href="contact.html">CONTACT</a></li>
+                    </ul>
+                </div>
+                <i class="fa fa-bars" onclick="showMenu()"></i>
+
+            </nav>
+            <h1>Nail Tech course</h1>
+        </section>
+       <!-- Blog Page Content -->
+        <section class="blog-content">
+            <div class="row">
+                <div class="blog-left">
+                    <img src="images/Space2.jpg">
+                    <h2>Nail Tech Course</h2>
+                    <p>A Nail Technician Course equips students with essential skills to thrive
+                         in the beauty industry. The program covers basic and advanced nail care techniques,
+                          including manicures, pedicures, nail extensions, and nail art. Students learn about nail anatomy, hygiene 
+                          practices, and the use of various tools and products. Hands-on training allows students to
+                           work with real clients, building confidence and proficiency. The course also teaches safety 
+                           protocols and customer service, ensuring graduates are well-prepared for salon environments. Upon c
+                           ompletion, students will earn certification and be ready to start a successful career as professional 
+                           nail technicians.
+                    </p>
+                    <br>
+                    <p>The course curriculum typically includes a wide range of topics. Students learn about basic nail care, including proper cleaning, trimming, and polishing techniques. They are also trained in advanced nail art, including techniques like gel and acrylic nails, nail extensions, and intricate designs. Additionally, health and safety protocols, sanitation, and infection control practices are a critical part of the program to ensure the safety of both the technician and the client.</p>
+                    <br>
+                    <p>Nail Tech courses also teach the business aspects of the profession, covering topics such as customer service, managing appointments, marketing, and handling finances. This holistic approach ensures graduates are not only skilled in technical nail services but also capable of building a successful career.</p>
+                    <br>
+                    <p>These courses can be offered in various formats, including online, in-person, or hybrid models, allowing flexibility for students. Many accredited institutions and beauty schools offer certification upon completion, which can enhance job prospects and client trust.</p>
+                    <div class="comment-box">
+                        <h3>Leave a comment</h3>
+                        <form class="comment-form">
+                            <input type="text" placeholder="Enter Name">
+                            <input type="text" placeholder="Enter Email">
+                            <textarea rows="5" placeholder="Your comment"></textarea>
+                            <button type="submit" class="hero-btn red-btn">POST COMMENT</button>
+                        </form>
+                    </div>
+                </div>
+                <div class="blog-right">
+                    <h3>Catrgories</h3>
+                    <div>
+                        <span>Menicure</span>
+                        <span>1</span>
+                    </div>
+                    <div>
+                        <span>Padicure</span>
+                        <span>2</span>
+                    </div>
+                    <div>
+                        <span>More</span>
+                        <span>3</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+         
+        <!-- Footer -->
+           <section class="footer">
+            <h4>About Us</h4>
+            <p>Our work speaks for itself<br>we value customer satisfaction and we aim at giving you the best out of our capabilities.We have been been in the nail tech business for a couple of years now</p>
+            <div class="icons">
+                <i class="fa fa-facebook"></i>
+                <i class="fa fa-twitter"></i>
+                <i class="fa fa-instagram"></i>
+                <i class="fa fa-linkedin"></i>
+            </div>
+           </section>
+
+        <!-- JavaScript for Toggle Menu -->
+        <script>
+            var navLinks = document.getElementById("navLinks")
+            function showMenu(){
+                navLinks.style.right="0";
+            }
+            function hideMenu(){
+                navLinks.style.right="-200px"
+            }
+        </script>
+    </body>
+</html>
